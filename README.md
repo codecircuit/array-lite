@@ -1,3 +1,5 @@
+**Notes on deprecation: with `--expt-relaxed-constexpr` most functions of `std::array` can be used in device functions. Sometimes I experienced problems with this flag in combination with debug builds. Rather use the array class from `cuda-kat` available [here](https://github.com/eyalroz/cuda-kat).**
+
 # array-lite library
 
 Resemble `std::array` for CUDA kernels.
